@@ -32,21 +32,24 @@ body{
    top: 50%;
    transform-origin: 100%;
    transform: rotate(90deg);
-   transition: all 0.05s;
 }
 .hour-hand{
     width: 35%;
     transform-origin: 100%;
     position: absolute;
     left: 27px;
+    transition: all 0.5s;
+    
 }
 .min-hand{
     width: 45%;
     transform-origin: 100%;
     position: absolute;
     left: 10px;
+    transition: all 0.05s;
 }
 .sec-hand{
     width: 47%;
     left: 5px;
+   
 }
