@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(30deg,green,orangered);
+}
+
+.clock{
+    height: 100vh;
+    width: 80vh;
+    margin-left: 450px;
+    background-color:purple;
+}
+.clock-face{
+    position: relative;
+    top: 250px;
+    left: 170px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: blue;
+}
+.hand{
+   width: 50%;
+   height: 6px;
+   background-color: black;
+   position: absolute;
+   top: 50%;
+   transform-origin: 100%;
+   transform: rotate(90deg);
+   transition: all 0.05s;
+}
+.hour-hand{
+    width: 35%;
+    transform-origin: 100%;
+    position: absolute;
+    left: 27px;
+}
+.min-hand{
+    width: 45%;
+    transform-origin: 100%;
+    position: absolute;
+    left: 10px;
+}
+.sec-hand{
+    width: 47%;
+    left: 5px;
+}
